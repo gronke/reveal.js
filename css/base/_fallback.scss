@@ -1,0 +1,43 @@
+/*********************************************
+ * FALLBACK
+ *********************************************/
+
+.no-transforms {
+  overflow-y: auto;
+}
+
+.no-transforms .reveal .slides {
+  position: relative;
+  width: 80%;
+  height: auto !important;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+.no-transforms .reveal .controls,
+.no-transforms .reveal .progress {
+  display: none !important;
+}
+
+.no-transforms .reveal .slides section {
+  display: block !important;
+  opacity: 1 !important;
+  position: relative !important;
+  height: auto;
+  min-height: 0;
+  top: 0;
+  left: -50%;
+  margin: 70px 0;
+  transform: none;
+}
+
+.no-transforms .reveal .slides section section {
+  left: 0;
+}
+
+.reveal .no-transition,
+.reveal .no-transition * {
+  transition: none !important;
+}

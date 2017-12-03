@@ -1,0 +1,18 @@
+/*********************************************
+ * PLAYBACK COMPONENT
+ *********************************************/
+
+.reveal .playback {
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+  z-index: 30;
+  cursor: pointer;
+  transition: all 400ms ease;
+  -webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+}
+
+.reveal.overview .playback {
+  opacity: 0;
+  visibility: hidden;
+}

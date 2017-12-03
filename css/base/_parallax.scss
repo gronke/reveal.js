@@ -1,0 +1,15 @@
+/*********************************************
+ * PARALLAX BACKGROUND
+ *********************************************/
+
+.reveal.has-parallax-background .backgrounds {
+  transition: all 0.8s ease;
+}
+
+/* Global transition speed settings */
+.reveal.has-parallax-background[data-transition-speed="fast"] .backgrounds {
+  transition-duration: 400ms;
+}
+.reveal.has-parallax-background[data-transition-speed="slow"] .backgrounds {
+  transition-duration: 1200ms;
+}
